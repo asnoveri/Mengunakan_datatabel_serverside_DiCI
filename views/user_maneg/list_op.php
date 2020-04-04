@@ -44,45 +44,6 @@
             </div>
         </div>    
     </div>
-
-    <div class="modal" id="tbhuser">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="label_Tambah">Tambah User</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <form action="<?= base_url()?>User_Managemen/add_user" method="POST">
-                        <div class="form-group">
-                            <label>Nama lengkap</label>
-                            <input type="text" class="form-control" id="fullname" name="fullname">
-                        </div>
-                        <div class="form-group">
-                            <label>User Name</label>
-                            <input type="text" class="form-control" id="user_name" name="user_name">
-                        </div>
-                        <div class="form-group">
-                            <label>Email</label>
-                            <input type="text" class="form-control" id="email"  name="email">
-                        </div>
-                        <div class="form-group">
-                            <label>Kata Sandi</label>
-                            <!-- <p id="pom"></p> -->
-                            <input type="password" class="form-control" id="pass"  name="pass">
-                            <!-- <input type="hidden" name="id_menu" id="id_menu">  -->
-                        </div>
-                        <div class="form-group">
-                            <label>Ulang Kata Sandi</label>
-                            <input type="password" class="form-control" id="pass1"  name="pass1">
-                        </div>
-                        <button type="submit" class="btn btn-primary" id="tbl_proses">Tambah</button>
-                        <button type="reset" class="btn btn-danger" data-dismiss="modal">Batal</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 <!-- /.container-fluid -->
 </div>
 <!-- End of Main Content -->
